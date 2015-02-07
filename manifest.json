@@ -28,8 +28,8 @@
   "content_scripts": [
     {
       "matches": [
-        "my.neu.edu/*",
-        "myneu.neu.edu/*"
+        "*://my.neu.edu/*",
+        "*://myneu.neu.edu/*"
       ],
       "js": [
         "src/inject/inject.js"
