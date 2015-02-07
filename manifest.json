@@ -31,18 +31,13 @@
         "my.neu.edu",
         "myneu.neu.edu"
       ],
-      "css": [
-        "src/inject/inject.css"
-      ]
-    },
-    {
-      "matches": [
-        "my.neu.edu",
-        "myneu.neu.edu"
-      ],
       "js": [
         "src/inject/inject.js"
-      ]
+      ],
+      "css": [
+        "src/inject/inject.css"
+      ],
+      "run_at": "document_start"
     }
   ]
 }
