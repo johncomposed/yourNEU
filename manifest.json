@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "manifest_version": 2,
   "description": "A Chrome extension that un-fucks myNEU.",
-  "homepage_url": "my.neu.edu",
+  "homepage_url": "myneu.neu.edu",
   "icons": {
   },
   "default_locale": "en",
