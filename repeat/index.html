@@ -6,38 +6,41 @@
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
-    <div ng-controller="TestCtrl">
+    <div style=" padding:100px;" ng-controller="TestCtrl">
         <ul>
-          <li ng-repeat="fruit in fruits">
-          {{fruit.name}}: ${{fruit.price}}
+          <li ng-repeat="item in data | orderBy:['subcat'] ">
+          {{item.name}}: {{item.desc}}
           </li>
         </ul>
     </div>
 
+
     <script src="lib/jquery-v1.11.1.js"></script>
     <script src="lib/angular-v1.2.22.js"></script>
 
-    <script>
-      var myApp = angular.module('myApp',[]);
+      <script>
+      var app = angular.module("myApp", []);
 
-      myApp.controller('TestCtrl', function($scope) {
-        var fruits = [
-          {
-            name: 'banana',
-            price: 0.72
-          },
-          {
-            name: 'apple',
-            price: 1.42
-          },
-          {
-            name: 'orange',
-            price: 200
-          },
-        ];
-
-        $scope.fruits = fruits;
+      app.controller("TestCtrl", function($scope, $http) {
+        $http.defaults.headers.common["X-Custom-Header"] = "Angular.js";
+        $http.get('data/allmyneu.json').
+          success(function(data, status, headers, config) {
+            $scope.data = data;
+          });
+        $http.get('data/allmyneu.json').
+          success(function(data, status, headers, config) {
+            $scope.doto = doto;
+          });
+        /*$http.get('data/allmyneu.json').
+          success(function(data, status, headers, config) {
+            $scope.data = data;
+          });
+        $http.get('data/allmyneu.json').
+          success(function(data, status, headers, config) {
+            $scope.data = data;
+          });*/
+         
       });
-    </script>
+      </script>
   </body>
 </html>
