@@ -14,7 +14,7 @@
   },
   "default_locale": "en",
   "background": {
-    "page": "src/bg/background.html",
+    "page": "src/bg/background.js",
     "persistent": true
   },
   "options_page": "src/options_custom/index.html",
@@ -28,8 +28,8 @@
   "content_scripts": [
     {
       "matches": [
-        "*://my.neu.edu/*",
-        "*://myneu.neu.edu/*"
+        "http://my.neu.edu/*",
+        "http://myneu.neu.edu/*"
       ],
       "js": [
         "src/inject/inject.js"
