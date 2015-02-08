@@ -1,0 +1,43 @@
+{
+  "name": "urNEU",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "A Chrome extension that un-fucks myNEU.",
+  "homepage_url": "https://github.com/Tiffney/UrNEU",
+  
+  "permissions": [
+    "myneu.neu.edu",
+    "my.neu.edu"
+  ],
+  
+  "icons": {
+  },
+  "default_locale": "en",
+  "background": {
+    "page": "src/bg/background.html",
+    "persistent": true
+  },
+  "options_page": "src/options_custom/index.html",
+  "page_action": {
+    "default_icon": "src//options_custom/icon.png",
+    "default_title": "page action demo"
+  },
+  "permissions": [
+    "cookies"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://my.neu.edu/*",
+        "*://myneu.neu.edu/*"
+      ],
+      "js": [
+        "src/inject/inject.js"
+      ],
+      "css": [
+        "src/inject/inject.css"
+      ],
+      "run_at": "document_start"
+    }
+  ]
+}
