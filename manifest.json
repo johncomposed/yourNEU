@@ -33,11 +33,18 @@
       ],
       "js": [
         "src/inject/inject.js"
+        //"bower_components/angular/angular.min.js
       ],
       "css": [
         "src/inject/inject.css"
       ],
-      "run_at": "document_start"
+      "html": ["!!! insert angular html here"],
+      "run_at": "document_end",
+      "all_frames": false
     }
+  ],
+  "web_accessible_resources": [
+    "!!! insert angular html here also"
+    //bower_components/angular/*" // !!! check that it's the right link
   ]
 }

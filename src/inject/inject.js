@@ -11,6 +11,14 @@ chrome.extension.sendMessage({}, function(response) {
 
 
 		window.location = 'about:blank';
+
+		// put any page-editing js here?
+
+		window.addEventListener("load", function() {
+			var html = document.querySelector('html');
+			html.setAttribute('ng-app', '');
+			html.setAttribute('ng-csp', '');
+		})
 	}
 	}, 10);
 });
