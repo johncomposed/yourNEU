@@ -20,6 +20,7 @@ window.addEventListener("load", function() {
   var myDirective = document.createElement('div');
   myDirective.setAttribute('my-directive', '');
   document.querySelector('.jsb center').appendChild(myDirective);
+  
 
   app.directive('myDirective', [ '$sce', function($sce) {
     return {
@@ -31,3 +32,23 @@ window.addEventListener("load", function() {
 
   angular.bootstrap(html, ['Binged'], []);
 });
+
+
+var div = document.getElementById("sidebar");
+div.remove();
+
+
+chrome.extension.sendMessage({}, function(response) {
+	var readyStateCheckInterval = setInterval(function() {
+	if (document.readyState === "complete") {
+		clearInterval(readyStateCheckInterval);
+
+		// ----------------------------------------------------------
+		// This part of the script triggers when page is done loading
+		console.log("Hello. This message was sent from scripts/inject.js");
+		// ----------------------------------------------------------
+
+	}
+	}, 10);
+});
+

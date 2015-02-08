@@ -7,6 +7,9 @@
         "16": "images/icon-16.png",
         "128": "images/icon-128.png"
     },
+    "permissions": [
+      "cookies"
+    ],
     "background": {
       "scripts": [
           "reload.js"
@@ -15,10 +18,11 @@
     "default_locale": "en",
   "content_scripts": [
     {
-      "matches": [
-        "http://*/*",
-        "https://*/*"
-      ],
+        "matches": [
+         "*://my.neu.edu/*",
+         "*://*.google.com/*",
+         "*://myneu.neu.edu/*"
+        ],
       "css": [
         "bower_components/angular/angular-csp.css",
         "styles/main.css"
