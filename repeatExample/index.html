@@ -4,7 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-		<title>Ur NEU</title>
+		<title>ourNEU</title>
 		<meta name="description" content="NEU Redesigned for the masses" />
 		<meta name="author" content="John, Tiffney, and Wendy @ hackbeanpot 2015" />
 		<link rel="shortcut icon" href="../favicon.ico">
@@ -17,6 +17,21 @@
 	<link rel="stylesheet" type="text/css" href="css/component.css" />
   </head>
   <body>
+      <header>
+
+      		<h1><a title="Home" href="http://tutorialzine.com/" id="logo">our<b>NEU</b></a></h1>
+
+		
+      		<nav class="Articles">
+      			<a href="http://tutorialzine.com/posts/" class="">HuskyMail</a>
+      			<a href="http://tutorialzine.com/webdev-newsletter/" class="">Blackboard</a>
+      			<a href="http://tutorialzine.com/books/jquery-trickshots/">Log out</a>
+      		</nav>
+
+		
+
+      	</header>
+      
     <div id="morphsearch" class="morphsearch"  ng-controller="InstantSearchController">
 		<form id="multiple-datasets" class="morphsearch-form">
 			<input ng-model="searchString" class="morphsearch-input" type="text" placeholder="Search..."/>
@@ -27,9 +42,9 @@
                 <h1>Academics</h1>
                 <!--Later this will be an h4 ng-repeat for the subcat -->
         <ul>
-          <li ng-repeat="Atem in dataA | orderBy:['subcat'] | searchFor:searchString">
-              <a class="dummy-media-object" href="{{Atem.url}}">
-                {{Atem.name}}<a href="" ng-model="collapsed" ng-click="collapsed=!collapsed">[+]</a>
+          <li class="dummy-media-object" ng-repeat="Atem in dataA | filter: { cat: 'Academics' } | orderBy:['subcat'] | searchFor:searchString">
+              <a  href="{{Atem.url}}">
+                {{Atem.name}}<a href="" ng-model="collapsed" ng-click="collapsed=!collapsed">...</a>
                 <p ng-show="collapsed">{{Atem.desc}}</p>
           </li>
         </ul>
@@ -38,9 +53,9 @@
                 <h1>Campus</h1>
                 <!--Later this will be an h4 ng-repeat for the subcat -->
         <ul>
-          <li ng-repeat="Ctem in dataC | orderBy:['subcat'] | searchFor:searchString ">
-              <a class="dummy-media-object" href="{{Ctem.url}}">
-                {{Ctem.name}}</a><a href="" ng-model="collapsed" ng-click="collapsed=!collapsed">[+]</a>
+          <li class="dummy-media-object" ng-repeat="Ctem in dataC | filter: { cat: 'Campus' } | orderBy:['subcat'] | searchFor:searchString ">
+              <a  href="{{Ctem.url}}">
+                {{Ctem.name}}</a><a href="" ng-model="collapsed" ng-click="collapsed=!collapsed">...</a>
                 <p ng-show="collapsed">{{Ctem.desc}}</p>
           </li>
         </ul>
@@ -49,9 +64,9 @@
                 <h1>Finances</h1>
                 <!--Later this will be an h4 ng-repeat for the subcat -->
         <ul>
-          <li ng-repeat="Ftem in dataF | orderBy:['subcat'] | searchFor:searchString ">
-              <a class="dummy-media-object" href="{{Ftem.url}}">
-                {{Ftem.name}}</a><a href="" ng-model="collapsed" ng-click="collapsed=!collapsed">[+]</a>
+          <li class="dummy-media-object" ng-repeat="Ftem in dataF | filter: { cat: 'Finances' } | orderBy:['subcat'] | searchFor:searchString ">
+              <a href="{{Ftem.url}}">
+                {{Ftem.name}}</a><a href="" ng-model="collapsed" ng-click="collapsed=!collapsed">...</a>
                 <p ng-show="collapsed">{{Ftem.desc}}</p>
           </li>
         </ul>
@@ -60,9 +75,9 @@
                 <h1>Co-op</h1>
                 <!--Later this will be an h4 ng-repeat for the subcat -->
         <ul>
-          <li ng-repeat="Otem in dataO | orderBy:['subcat'] | searchFor:searchString ">
-              <a class="dummy-media-object" href="{{Otem.url}}">
-                {{Otem.name}}<a href="" ng-model="collapsed" ng-click="collapsed=!collapsed">[+]</a>
+          <li class="dummy-media-object" ng-repeat="Otem in dataO | filter: { cat: 'Co-op' } | orderBy:['subcat'] | searchFor:searchString ">
+              <a  href="{{Otem.url}}">
+                {{Otem.name}}<a href="" ng-model="collapsed" ng-click="collapsed=!collapsed">...</a>
                 <p ng-show="collapsed">{{Otem.desc}}</p>
           </li>
         </ul>

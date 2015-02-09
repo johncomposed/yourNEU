@@ -10,11 +10,8 @@ body {
 .morphsearch {
 	width: 100%;
 	min-height: 100%;
-	background: #f1f1f1;
-	position: absolute;
+	background: #FFFFFF;
 
-	top: 0px;
-	right: 0px;
 }
 
 
@@ -23,17 +20,19 @@ body {
 	height: 40px;
 	margin: 0 auto;
 	position: relative;
+	background: #F0EFEC;
+	/* box-shadow: 0 1px 2px rgba(0,0,0,0.2); */
 }
 
 .morphsearch .morphsearch-form {
-	width: 80%;
-	height: 160px;
+	width: 100%;
+	height: 140px;
+    padding: 0 10%;
 }
 
 .morphsearch-input {
 	width: 100%;
 	height: 100%;
-	padding: 0 10% 0 10px;
 	font-weight: 700;
 	border: none;
 	background: transparent;
@@ -53,7 +52,7 @@ body {
 }
 
 .morphsearch .morphsearch-input {
-	font-size: 7em;
+	font-size: 6em;
 }
 
 /* placeholder */
@@ -94,7 +93,7 @@ input[type="search"] { /* reset normalize */
 	height: 80px;
 	text-indent: 100px;
 	overflow: hidden;
-	right: 30px;
+	right: 10%;
 	top: 25%;
 	background: transparent url(../img/magnifier.svg) no-repeat center center;
 	background-size: 100%;
@@ -110,12 +109,12 @@ input[type="search"] { /* reset normalize */
 
 .morphsearch-content {
 	color: #333;
-	margin-top: 4.5em;
+	margin-top: 70px;
 	width: 100%;
 	height: 0;
 	overflow: hidden;
 	padding: 0 10.5%;
-	background: #f1f1f1;
+	background: #FFFFFF;
 	position: absolute;
 	pointer-events: none;
 	opacity: 0;
@@ -132,8 +131,23 @@ input[type="search"] { /* reset normalize */
 	width: 22%;
 	padding: 0 0 6em;
 	float: left;
-	opacity: 0;
+	margin: 0 2%;
 }
+
+.dummy-column:first-child {
+    margin-left: 0px;
+}
+
+.dummy-column:nth-child(4) {
+    margin-right: 0px;
+}
+
+.dummy-column ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
 
 .morphsearch .dummy-column {
 	opacity: 1;
@@ -145,11 +159,6 @@ input[type="search"] { /* reset normalize */
 
 .tt-dropdown-menu a:hover {
 	color:#ffffff;
-}
-
-
-.dummy-column:nth-child(2) {
-	margin: 0 5%;
 }
 
 .dummy-column h2 {
@@ -166,12 +175,13 @@ input[type="search"] { /* reset normalize */
 }
 
 .dummy-media-object {
-	padding: 0.75em;
+	color: #000;
 	display: block;
-	margin: 0.3em 0;
+	padding: 1em 0;
 	cursor: pointer;
 	border-radius: 5px;
-	background: rgba(118,117,128,0.05);
+	/* background: rgba(118,117,128,0.05); */
+	text-decoration: none;
 }
 
 .dummy-media-object:hover,
