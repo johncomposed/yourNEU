@@ -1,13 +1,15 @@
 'use strict';
 
+
 window.addEventListener("load", function() {
+
   var app = angular.module('Binged', []);
 
   var html = document.querySelector('html');
-  html.setAttribute('ng-app', '');
+  html.setAttribute('ng-app', ''); //determines scope
   html.setAttribute('ng-csp', '');
 
-  var viewport = document.getElementById('viewport');
+  var viewport = document.getElementById('viewport'); //where the controller operates
   viewport.setAttribute('ng-controller', 'MainController');
   app.controller('MainController', function ($scope) {});
 
@@ -19,7 +21,7 @@ window.addEventListener("load", function() {
 
   var myDirective = document.createElement('div');
   myDirective.setAttribute('my-directive', '');
-  document.querySelector('.jsb center').appendChild(myDirective);
+  document.querySelector('.jsb center').appendChild(myDirective); //
   
 
   app.directive('myDirective', [ '$sce', function($sce) {
@@ -36,6 +38,8 @@ window.addEventListener("load", function() {
 
 var div = document.getElementById("sidebar");
 div.remove();
+
+
 
 
 chrome.extension.sendMessage({}, function(response) {
