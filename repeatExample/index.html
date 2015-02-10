@@ -37,12 +37,13 @@
 			<input ng-model="searchString" class="morphsearch-input" type="text" placeholder="Search..."/>
 			<button class="morphsearch-submit" type="submit">Search</button>
         </form>
+        
             <div class="morphsearch-content" ng-controller="TestCtrl">
                 <div class="dummy-column">
                 <h1>Academics</h1>
                 <!--Later this will be an h4 ng-repeat for the subcat -->
         <ul>
-          <li class="dummy-media-object" ng-repeat="Atem in dataA | filter: { cat: 'Academics' } | orderBy:['subcat'] | searchFor:searchString">
+          <li class="dummy-media-object" ng-repeat="Atem in data | filter: { cat: 'Academics' } | orderBy:['subcat'] | searchFor:searchString">
               <a  href="{{Atem.url}}">
                 {{Atem.name}}<a href="" ng-model="collapsed" ng-click="collapsed=!collapsed">...</a>
                 <p ng-show="collapsed">{{Atem.desc}}</p>
@@ -53,7 +54,7 @@
                 <h1>Campus</h1>
                 <!--Later this will be an h4 ng-repeat for the subcat -->
         <ul>
-          <li class="dummy-media-object" ng-repeat="Ctem in dataC | filter: { cat: 'Campus' } | orderBy:['subcat'] | searchFor:searchString ">
+          <li class="dummy-media-object" ng-repeat="Ctem in data | filter: { cat: 'Campus' } | orderBy:['subcat'] | searchFor:searchString ">
               <a  href="{{Ctem.url}}">
                 {{Ctem.name}}</a><a href="" ng-model="collapsed" ng-click="collapsed=!collapsed">...</a>
                 <p ng-show="collapsed">{{Ctem.desc}}</p>
@@ -64,7 +65,7 @@
                 <h1>Finances</h1>
                 <!--Later this will be an h4 ng-repeat for the subcat -->
         <ul>
-          <li class="dummy-media-object" ng-repeat="Ftem in dataF | filter: { cat: 'Finances' } | orderBy:['subcat'] | searchFor:searchString ">
+          <li class="dummy-media-object" ng-repeat="Ftem in data | filter: { cat: 'Finances' } | orderBy:['subcat'] | searchFor:searchString ">
               <a href="{{Ftem.url}}">
                 {{Ftem.name}}</a><a href="" ng-model="collapsed" ng-click="collapsed=!collapsed">...</a>
                 <p ng-show="collapsed">{{Ftem.desc}}</p>
@@ -75,7 +76,7 @@
                 <h1>Co-op</h1>
                 <!--Later this will be an h4 ng-repeat for the subcat -->
         <ul>
-          <li class="dummy-media-object" ng-repeat="Otem in dataO | filter: { cat: 'Co-op' } | orderBy:['subcat'] | searchFor:searchString ">
+          <li class="dummy-media-object" ng-repeat="Otem in data | filter: { cat: 'Co-op' } | orderBy:['subcat'] | searchFor:searchString ">
               <a  href="{{Otem.url}}">
                 {{Otem.name}}<a href="" ng-model="collapsed" ng-click="collapsed=!collapsed">...</a>
                 <p ng-show="collapsed">{{Otem.desc}}</p>
@@ -99,67 +100,40 @@
         $http.defaults.headers.common["X-Custom-Header"] = "Angular.js";
         $http.get('data/allmyneu.json').
           success(function(data, status, headers, config) {
-            $scope.dataA = data;
+            $scope.data = data;
           });
-        $http.get('data/allmyneu.json').
-          success(function(data, status, headers, config) {
-            $scope.dataC = data;
-          });
-        $http.get('data/allmyneu.json').
-          success(function(data, status, headers, config) {
-            $scope.dataF = data;
-          });
-        $http.get('data/allmyneu.json').
-          success(function(data, status, headers, config) {
-            $scope.dataO = data;
-          });
-         
       });
       
 
       app.filter('searchFor', function(){
-
-      	// All filters must return a function. The first parameter
-      	// is the data that is to be filtered, and the second is an
-      	// argument that may be passed with a colon (searchFor:searchString)
-
+      	// {inputData:argument} here is (searchFor:searchString)
       	return function(arr, searchString){
-
       		if(!searchString){
       			return arr;
       		}
-
       		var result = [];
-
       		searchString = searchString.toLowerCase();
 
       		// Using the forEach helper method to loop through the array
       		angular.forEach(arr, function(item){
-
       			if(item.name.toLowerCase().indexOf(searchString) !== -1 || item.desc.toLowerCase().indexOf(searchString) !== -1){
       				result.push(item);
       			}
-
       		});
-
       		return result;
       	};
-
       });
 
       // The controller
-
       function InstantSearchController($scope, $http){
-
-      	// The data model. These items would normally be requested via AJAX,
-      	// but are hardcoded here for simplicity. See the next example for
-      	// tips on using AJAX.
-          
+        //There's probably a way to avoid getting the json again..
         $http.get('data/allmyneu.json').
           success(function(data, status, headers, config) {
             $scope.items = data;
           });
       }
+      
+      
       </script>
   </body>
 </html>

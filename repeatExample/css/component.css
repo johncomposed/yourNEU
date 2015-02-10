@@ -132,7 +132,7 @@ input[type="search"] { /* reset normalize */
 	padding: 0 0 6em;
 	float: left;
 	margin: 0 2%;
-}
+} 
 
 .dummy-column:first-child {
     margin-left: 0px;
@@ -148,17 +148,8 @@ input[type="search"] { /* reset normalize */
     padding: 0;
 }
 
-
 .morphsearch .dummy-column {
 	opacity: 1;
-}
-
-.tt-dropdown-menu a {
-	color:#000000;
-}
-
-.tt-dropdown-menu a:hover {
-	color:#ffffff;
 }
 
 .dummy-column h2 {
@@ -184,8 +175,14 @@ input[type="search"] { /* reset normalize */
 	text-decoration: none;
 }
 
-.dummy-media-object:hover,
-.dummy-media-object:focus {
+.dummy-media-object a {
+    color: #990000;
+    text-decoration: none;
+    margin: 0px 0em;
+}
+
+.dummy-media-object a:hover,
+.dummy-media-object a:focus {
 	background: rgba(118,117,128,0.1);
 }
 
