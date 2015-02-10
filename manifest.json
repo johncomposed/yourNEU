@@ -17,9 +17,9 @@
     "page": "src/bg/background.js",
     "persistent": true
   },
-  "options_page": "src/options_custom/index.html",
+  "options_page": "/src/options_custom/index.html",
   "page_action": {
-    "default_icon": "src//options_custom/icon.png",
+    "default_icon": "/src/options_custom/icon.png",
     "default_title": "page action demo"
   },
   "permissions": [
@@ -32,19 +32,22 @@
         "http://myneu.neu.edu/*"
       ],
       "js": [
-        "src/inject/inject.js"
+        "/src/options_custom/lib/angular-v1.2.22.js",
+        "/src/inject/inject.js"
         //"bower_components/angular/angular.min.js
       ],
       "css": [
-        "src/inject/inject.css"
+        "/src/inject/inject.css"
       ],
-      "html": ["!!! insert angular html here"],
+      "html": ["../app/templates/index.html"],
       "run_at": "document_end",
       "all_frames": false
     }
   ],
+  "content_security_policy": "script-src 'self'; object-src 'self'",
   "web_accessible_resources": [
-    "!!! insert angular html here also"
+    "../app/templates/index.html",
+    "/src/options_custom/lib/angular-v1.2.22.js"
     //bower_components/angular/*" // !!! check that it's the right link
   ]
 }
