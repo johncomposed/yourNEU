@@ -1,0 +1,139 @@
+<!doctype html>
+<html ng-app="instantSearch"  >
+  <head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+		<title>ourNEU</title>
+		<meta name="description" content="NEU Redesigned for the masses" />
+		<meta name="author" content="John, Tiffney, and Wendy @ hackbeanpot 2015" />
+		<link rel="shortcut icon" href="../favicon.ico">
+        
+        <!--Styles-->
+		<link href='http://fonts.googleapis.com/css?family=Raleway:100,700,800' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.2.0/css/font-awesome.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+  </head>
+  <body>
+      <header>
+
+      		<h1><a title="Home" href="http://tutorialzine.com/" id="logo">our<b>NEU</b></a></h1>
+
+		
+      		<nav class="Articles">
+      			<a href="http://tutorialzine.com/posts/" class="">HuskyMail</a>
+      			<a href="http://tutorialzine.com/webdev-newsletter/" class="">Blackboard</a>
+      			<a href="http://tutorialzine.com/books/jquery-trickshots/">Log out</a>
+      		</nav>
+
+		
+
+      	</header>
+      
+    <div id="morphsearch" class="morphsearch"  ng-controller="InstantSearchController">
+		<form id="multiple-datasets" class="morphsearch-form">
+			<input ng-model="searchString" class="morphsearch-input" type="text" placeholder="Search..."/>
+			<button class="morphsearch-submit" type="submit">Search</button>
+        </form>
+        
+            <div class="morphsearch-content" ng-controller="TestCtrl">
+                <div class="dummy-column">
+                <h1>Academics</h1>
+                <!--Later this will be an h4 ng-repeat for the subcat -->
+        <ul>
+          <li class="dummy-media-object" ng-repeat="Atem in data | filter: { cat: 'Academics' } | orderBy:['subcat'] | searchFor:searchString">
+              <a  href="{{Atem.url}}">
+                {{Atem.name}}<a href="" ng-model="collapsed" ng-click="collapsed=!collapsed">...</a>
+                <p ng-show="collapsed">{{Atem.desc}}</p>
+          </li>
+        </ul>
+    </div>
+                <div class="dummy-column">
+                <h1>Campus</h1>
+                <!--Later this will be an h4 ng-repeat for the subcat -->
+        <ul>
+          <li class="dummy-media-object" ng-repeat="Ctem in data | filter: { cat: 'Campus' } | orderBy:['subcat'] | searchFor:searchString ">
+              <a  href="{{Ctem.url}}">
+                {{Ctem.name}}</a><a href="" ng-model="collapsed" ng-click="collapsed=!collapsed">...</a>
+                <p ng-show="collapsed">{{Ctem.desc}}</p>
+          </li>
+        </ul>
+    </div>
+                <div class="dummy-column">
+                <h1>Finances</h1>
+                <!--Later this will be an h4 ng-repeat for the subcat -->
+        <ul>
+          <li class="dummy-media-object" ng-repeat="Ftem in data | filter: { cat: 'Finances' } | orderBy:['subcat'] | searchFor:searchString ">
+              <a href="{{Ftem.url}}">
+                {{Ftem.name}}</a><a href="" ng-model="collapsed" ng-click="collapsed=!collapsed">...</a>
+                <p ng-show="collapsed">{{Ftem.desc}}</p>
+          </li>
+        </ul>
+    </div>
+                <div class="dummy-column">
+                <h1>Co-op</h1>
+                <!--Later this will be an h4 ng-repeat for the subcat -->
+        <ul>
+          <li class="dummy-media-object" ng-repeat="Otem in data | filter: { cat: 'Co-op' } | orderBy:['subcat'] | searchFor:searchString ">
+              <a  href="{{Otem.url}}">
+                {{Otem.name}}<a href="" ng-model="collapsed" ng-click="collapsed=!collapsed">...</a>
+                <p ng-show="collapsed">{{Otem.desc}}</p>
+          </li>
+        </ul>
+    </div>
+    </div><!-- /morphsearch-content -->
+    
+    </div><!-- /morphsearch -->
+
+
+    <script src="lib/jquery-v1.11.1.js"></script>
+    <script src="lib/angular-v1.2.22.js"></script>
+    <script src="lib/app.js"></script>
+    
+
+      <script>
+      var app = angular.module("instantSearch", []);
+
+      app.controller("TestCtrl", function($scope, $http) {
+        $http.defaults.headers.common["X-Custom-Header"] = "Angular.js";
+        $http.get('data/allmyneu.json').
+          success(function(data, status, headers, config) {
+            $scope.data = data;
+          });
+      });
+      
+
+      app.filter('searchFor', function(){
+      	// {inputData:argument} here is (searchFor:searchString)
+      	return function(arr, searchString){
+      		if(!searchString){
+      			return arr;
+      		}
+      		var result = [];
+      		searchString = searchString.toLowerCase();
+
+      		// Using the forEach helper method to loop through the array
+      		angular.forEach(arr, function(item){
+      			if(item.name.toLowerCase().indexOf(searchString) !== -1 || item.desc.toLowerCase().indexOf(searchString) !== -1){
+      				result.push(item);
+      			}
+      		});
+      		return result;
+      	};
+      });
+
+      // The controller
+      function InstantSearchController($scope, $http){
+        //There's probably a way to avoid getting the json again..
+        $http.get('data/allmyneu.json').
+          success(function(data, status, headers, config) {
+            $scope.items = data;
+          });
+      }
+      
+      
+      </script>
+  </body>
+</html>
