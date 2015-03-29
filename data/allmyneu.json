@@ -1,0 +1,933 @@
+[
+  {
+    "name":"Council for University Programs",
+    "cat":"Campus",
+    "subcat":"Announcements and Events",
+    "desc":"We organize Northeastern's most memorable on-campus events",
+    "url":"http://www.cup.neu.edu/"
+  },
+  {
+    "name":"Curry Student Center",
+    "cat":"Campus",
+    "subcat":"Community",
+    "desc":"The John A. and Marcia E. Curry Student Center is the crossroads for community life at Northeastern University, serving all members of the University in the celebration of diversity and student life.",
+    "url":"http://www.northeastern.edu/curry/"
+  },
+  {
+    "name":"Graduate and Professional Student Association",
+    "cat":"Campus",
+    "subcat":"Graduate Students",
+    "desc":"The Northeastern University Graduate Student Government (GSG) works through the Graduate Senate which is the official representative body for all graduate students at NU",
+    "url":"http://www.northeastern.edu/gsg/"
+  },
+  {
+    "name":"Husky Environmental Action Team (HEAT)",
+    "cat":"Campus",
+    "subcat":"Community",
+    "desc":"Husky Environmental Action Team (HEAT) is a student group working towards environmental sustainability and carbon neutrality at Northeastern University.",
+    "url":"https://sites.google.com/site/nuheat/"
+  },
+  {
+    "name":"news@Northeastern",
+    "cat":"Campus",
+    "subcat":"Announcements and Events",
+    "desc":"The official news source for Northeastern University ",
+    "url":"http://www.northeastern.edu/news/"
+  },
+  {
+    "name":"Hosting and File Storage",
+    "cat":"Campus",
+    "subcat":"Dorms, Resnet, and IT",
+    "desc":"Do you need help developing a website, a place to host your current website or a place to store your files online? This website provides information about all of the web related resources available to Northeastern faculty, staff and academic groups. ",
+    "url":"http://www.northeastern.edu/nuweb/"
+  },
+  {
+    "name":"Student Government Association",
+    "cat":"Campus",
+    "subcat":"Community",
+    "desc":"The student government associacation of Northeastern University",
+    "url":"http://www.sga.neu.edu/"
+  },
+  {
+    "name":"WRBB Campus Radio",
+    "cat":"Campus",
+    "subcat":"Media",
+    "desc":"WRBB is a non-commercial, non-profit, free-form station run by students at Northeastern University in Boston providing the surrounding areas with a musical diversity not available on any of Boston’s commercial stations.",
+    "url":"http://wrbbradio.org/"
+  },
+  {
+    "name":"Asian American Center",
+    "cat":"Campus",
+    "subcat":"Campus Offices",
+    "desc":"Asian American Center",
+    "url":"http://www.northeastern.edu/aac/"
+  },
+  {
+    "name":"Athletics",
+    "cat":"Campus",
+    "subcat":"Campus Offices",
+    "desc":"Athletics",
+    "url":"http://www.gonu.com/"
+  },
+  {
+    "name":"Campus Rec",
+    "cat":"Campus",
+    "subcat":"Campus Offices",
+    "desc":"Campus Rec",
+    "url":"http://www.campusrec.neu.edu/"
+  },
+  {
+    "name":"Career Services",
+    "cat":"Campus",
+    "subcat":"Campus Offices",
+    "desc":"Career Services",
+    "url":"http://www.northeastern.edu/careers/"
+  },
+  {
+    "name":"Center of Community Service",
+    "cat":"Campus",
+    "subcat":"Campus Offices",
+    "desc":"Center of Community Service",
+    "url":"http://www.northeastern.edu/communityservice/"
+  },
+  {
+    "name":"Disability Resource Center",
+    "cat":"Campus",
+    "subcat":"Campus Offices",
+    "desc":"Disability Resource Center",
+    "url":"http://www.northeastern.edu/drc/"
+  },
+  {
+    "name":"John D. O'Bryant African-American Institute",
+    "cat":"Campus",
+    "subcat":"Campus Offices",
+    "desc":"John D. O'Bryant African-American Institute",
+    "url":"http://www.northeastern.edu/aai/"
+  },
+  {
+    "name":"Latino/a Cultural Center",
+    "cat":"Campus",
+    "subcat":"Campus Offices",
+    "desc":"Latino/a Cultural Center",
+    "url":"http://www.northeastern.edu/latino/"
+  },
+  {
+    "name":"OPEN- Office of Prevention and Education at Northeastern",
+    "cat":"Campus",
+    "subcat":"Campus Offices",
+    "desc":"Alcohol and drug check-ins, referrals, education",
+    "url":"http://www.northeastern.edu/open/"
+  },
+  {
+    "name":"Registrar's Office ",
+    "cat":"Campus",
+    "subcat":"Campus Offices",
+    "desc":"Registrar's Office ",
+    "url":"http://www.northeastern.edu/registrar/catsugd.html"
+  },
+  {
+    "name":"Student Accounts",
+    "cat":"Campus",
+    "subcat":"Campus Offices",
+    "desc":"Billing, costs, payment plans, Husky and meal plans, Financial aid and planning, loans ",
+    "url":"http://www.northeastern.edu/financialaid/"
+  },
+  {
+    "name":"University Life ",
+    "cat":"Campus",
+    "subcat":"Campus Offices",
+    "desc":"Housing",
+    "url":"http://www.northeastern.edu/reslife/"
+  },
+  {
+    "name":"NEU EHS",
+    "cat":"Campus",
+    "subcat":"Campus Offices",
+    "desc":"Office of Environmental Health and Safety ",
+    "url":"http://www.ehs.neu.edu/"
+  },
+  {
+    "name":"Upcoming Events",
+    "cat":"Campus",
+    "subcat":"Announcements and Events",
+    "desc":"Upcoming events from the Campus Calendar",
+    "url":"http://calendar.northeastern.edu/"
+  },
+  {
+    "name":"Campus Maps/Directions",
+    "cat":"Campus",
+    "subcat":"Helpful Links",
+    "desc":"Campus Maps/Directions",
+    "url":"http://www.northeastern.edu/campusmap/"
+  },
+  {
+    "name":"Academic Calendars",
+    "cat":"Campus",
+    "subcat":"Helpful Links",
+    "desc":"Academic Calendars",
+    "url":"http://www.northeastern.edu/registrar/calendars.html"
+  },
+  {
+    "name":"Course Catalog",
+    "cat":"Academics",
+    "subcat":"Helpful Links",
+    "desc":"Course Descriptions",
+    "url":"http://www.northeastern.edu/registrar/cdr.html"
+  },
+  {
+    "name":"Class Schedules",
+    "cat":"Academics",
+    "subcat":"Helpful Links",
+    "desc":"Class Schedules",
+    "url":"http://www.northeastern.edu/registrar/schedall.html"
+  },
+  {
+    "name":"Dining Services",
+    "cat":"Campus",
+    "subcat":"Helpful Links",
+    "desc":"News, Events, Hours of Operation for on campus dining halls",
+    "url":"http://www.nudining.com/"
+  },
+  {
+    "name":"Double Husky Scholarship",
+    "cat":"Campus",
+    "subcat":"Helpful Links",
+    "desc":"Rejoin the Pack\nAre you a Northeastern graduate who is considering going back to school to earn your graduate degree or certificate?",
+    "url":"http://www.northeastern.edu/graduate/doublehusky/overview/"
+  },
+  {
+    "name":"Facilities Online Work Request",
+    "cat":"Campus",
+    "subcat":"Helpful Links",
+    "desc":"File a work request",
+    "url":"https://workreq.neu.edu/workrequest/"
+  },
+  {
+    "name":"Husky Express (garment valet)",
+    "cat":"Campus",
+    "subcat":"Helpful Links",
+    "desc":"Laundry Delivery System",
+    "url":"http://www.garmentvalet.com/"
+  },
+  {
+    "name":"LaundryView",
+    "cat":"Campus",
+    "subcat":"Helpful Links",
+    "desc":"On Campus Laundry Services",
+    "url":"http://www.laundryview.com/lvs.php"
+  },
+  {
+    "name":"Undergrad Catalogs",
+    "cat":"Academics",
+    "subcat":"Helpful Links",
+    "desc":"",
+    "url":"http://www.northeastern.edu/registrar/catsugd.html"
+  },
+  {
+    "name":"HuskyCable FAQ",
+    "cat":"Campus",
+    "subcat":"Dorms, Resnet, and IT",
+    "desc":"HuskyCable offers over 70+ broadcast and premium channels to students in NU-owned residence halls without a monthly cable bill. For assistance with HuskyCable, call (617)373-4357(xHELP).",
+    "url":"http://www.northeastern.edu/its/faq/huskycable/"
+  },
+  {
+    "name":"MyApps",
+    "cat":"Campus",
+    "subcat":"MyApps",
+    "desc":"myApps is a service that allows members of the university community to access computer applications remotely. Support for myApps is available by calling the ITS Service Desk (617)373-4357 (xHELP)",
+    "url":"http://www.northeastern.edu/its/services/myapps/"
+  },
+  {
+    "name":"NU Cauldron Yearbook",
+    "cat":"Campus",
+    "subcat":"NU Community",
+    "desc":"\nTo get involved, purchase a yearbook, register for a senior portrait session, publicize your student group, advertise your local business, or find out more about the Cauldron Yearbook, check out www.cauldron.neu.edu! The Cauldron is committed to high quality annual yearbooks and has been proudly representing Northeastern University since 1922.",
+    "url":"http://www.cauldron.neu.edu/"
+  },
+  {
+    "name":"NUTV Webcast",
+    "cat":"Campus",
+    "subcat":"NU Media",
+    "desc":"Northeastern University Television is now available to the Northeastern community. Check out our coverage of events around campus, along with sports, technology, original programming, and lots more! WatchNUTV.com",
+    "url":"http://www.nutv.neu.edu/"
+  },
+  {
+    "name":"\nNU Student Parking Application\n",
+    "cat":"Campus",
+    "subcat":"Parking",
+    "desc":"All vehicles being used by students must display a valid parking permit in order to park on University property.",
+    "url":"http://myneu.neu.edu/cp/ip/login?sys=was&url=https://prod-web.neu.edu/wasapp/nuparking/SignupAuth.do"
+  },
+  {
+    "name":"Non-Resident Vehicle Registration",
+    "cat":"Campus",
+    "subcat":"Parking",
+    "desc":"Northeastern University is responsible for notifying all out of state students of the following Massachusetts Law regarding non Massachusetts registered vehicles. ",
+    "url":"http://myneu.neu.edu/cp/ip/login?sys=was&url=https://prod-web.neu.edu/wasapp/NonResDecal/"
+  },
+  {
+    "name":"Parking Website",
+    "cat":"Campus",
+    "subcat":"Parking",
+    "desc":"The following are start dates of when permits for the upcoming term are available for purchase.",
+    "url":"http://www.northeastern.edu/parking/"
+  },
+  {
+    "name":"Resnet Resource Center",
+    "cat":"Campus",
+    "subcat":"Dorms, Resnet, and IT",
+    "desc":"Explore the computer related services that the ResNet Resource Center has to offer including: software and hardware support, game console registration, helpful hints, a computer products store, and much more.",
+    "url":"http://www.northeastern.edu/resnet/"
+  },
+  {
+    "name":"Student Employment",
+    "cat":"Academics",
+    "subcat":"Student Employment",
+    "desc":"Search and apply for part-time student employment opportunities including Federal Work-Study positions.",
+    "url":"https://studentemployment.neu.edu/JobX_Home.aspx"
+  },
+  {
+    "name":"W-2 electronic consent form",
+    "cat":"Academics",
+    "subcat":"Student Employment",
+    "desc":"lect the check box to consent to receive your W-2 electronically, or uncheck to revoke consent.",
+    "url":"https://wl11gp.neu.edu/udcprod8/bwpkxtxs.P_W2Consent"
+  },
+  {
+    "name":"Employee Self-Service",
+    "cat":"Academics",
+    "subcat":"Student Employment",
+    "desc":"Provides access to view pay statements for all pay periods beginning after 1/1/12. Also provides access to W-2 and W-4 information for changes beginning in calendar year 2012.\nRequests for information on previous years may be directed to the HRM Customer Service Center via email, HRMInfo@neu.edu",
+    "url":"https://studentemployment.neu.edu/JobX_Home.aspx"
+  },
+  {
+    "name":"Health Plan Waiver",
+    "cat":"Campus",
+    "subcat":"Student Financial Services",
+    "desc":"waive the health plan for this academic year.",
+    "url":"http://myneu.neu.edu/cp/ip/login?sys=was&url=https://prod-web.neu.edu/wasapp/bn/HealthWaiver/initial.do"
+  },
+  {
+    "name":"Student Refund Request Form",
+    "cat":"Campus",
+    "subcat":"Student Financial Services",
+    "desc":"Get Money Back from Student Financial Services ",
+    "url":"http://myneu.neu.edu/cp/ip/login?sys=lo6&url=https://neuforms3.neu.edu/lfserver/nuloform/studentrefund"
+  },
+  {
+    "name":"\nRequest Meal Plan Selection Page",
+    "cat":"Campus",
+    "subcat":"Student Financial Services",
+    "desc":"The following students are required to be enrolled in the 19-, 15- or 10-meal plan: \n-All freshmen (during their first two semesters as matriculated college students) living in University housing. \n-Upper-class students living in a meal plan required residence hall. \nStudents that meet the above criteria are automatically enrolled in the 15-meal plan with the option to change to a 19- or 10-meal plan before the start of classes only in the fall and spring semesters. Changes may be made by visiting the Self-Service tab on their myNEU. Please review your account to confirm if you have already been enrolled prior to adding a Meal Plan.\n",
+    "url":"http://myneu.neu.edu/cp/ip/login?sys=sctssb&url=https://wl11gp.neu.edu/udcprod8/bzskoacc.p_selmp"
+  },
+  {
+    "name":"Profiler Plan Selection Info Page",
+    "cat":"Campus",
+    "subcat":"Student Financial Services",
+    "desc":"Requesting a Profiler Plan will not drop you from any other meal plan that you might be enrolled in. This will give you a Profiler Plan along with your other meal plan.",
+    "url":"http://myneu.neu.edu/cp/ip/login?sys=sctssb&url=https://wl11gp.neu.edu/udcprod8/bzskoacc.p_ppinfo"
+  },
+  {
+    "name":"NU Housing Waitlist Application",
+    "cat":"Campus",
+    "subcat":"Student Financial Services",
+    "desc":"Northeastern University's Housing & Residential Life system includes any living accommodations owned or leased by the University which provides housing each term to eligible students. ",
+    "url":"http://myneu.neu.edu/cp/ip/login?sys=was&url=https://prod-web.neu.edu/wasapp/EnrolledHousing"
+  },
+  {
+    "name":"Student Employment ",
+    "cat":"Campus",
+    "subcat":"Student Financial Services",
+    "desc":"Use the \"Information For Students\" link on the left to access the following features:\nFind a Job\nFill Out Timesheets\nSign Up For JobMail\nDownload Forms",
+    "url":"http://myneu.neu.edu/cp/ip/login?sys=jobx&url=https://studentemployment.neu.edu/JobXHome.aspx"
+  },
+  {
+    "name":"NUIdeas",
+    "cat":"Campus",
+    "subcat":"Student Involvement",
+    "desc":"Your ideas for a better Northeastern; a forum brought to you by SGA.",
+    "url":"http://northeasternsga.ideascale.com/"
+  },
+  {
+    "name":"OrgSync",
+    "cat":"Campus",
+    "subcat":"Student Involvement",
+    "desc":"Your link to joining and leading student organizations!",
+    "url":"https://orgsync.com/home/127"
+  },
+  {
+    "name":"Service Timesheets",
+    "cat":"Campus",
+    "subcat":"Student Involvement",
+    "desc":"\nFor students and S-LTAs involved in Civic Engagement Program, Jumpstart, Service-Learning Courses, and Mass achusetts Promise Fellowship\n\n",
+    "url":"https://prod-web.neu.edu/wasapp/CommunityEngagement/commEngageStudent/list"
+  },
+  {
+    "name":"ITS Assistance , myHelp",
+    "cat":"Campus",
+    "subcat":"Study and Course Resources",
+    "desc":"Your Gateway to ITS Support \nRequest a product or service from Information Technology Services, or report an issue you are experiencing.",
+    "url":"https://northeastern.service-now.com/navpage.do"
+  },
+  {
+    "name":"Ticket Center",
+    "cat":"Campus",
+    "subcat":"Tickets",
+    "desc":"Purchase tickets to athletic and student events here.",
+    "url":"http://neu.universitytickets.com/user_pages/event_listings.aspx"
+  },
+  {
+    "name":"UHCS Appointments ",
+    "cat":"Campus",
+    "subcat":"University Health and Counseling",
+    "desc":"This site is your personal patient care portal for Northeastern University Health and Counseling Services. Please remember the patient portal is not for emergency situations. If you need emergency medical care and you are on campus call public safety at 617-373- 3333 or off-campus call 911.",
+    "url":"http://myneu.neu.edu/cp/ip/login?sys=ec&url=https://neuportal.eclinicalweb.com/neu/jsp/${RetPag}"
+  },
+  {
+    "name":"UHCS",
+    "cat":"Campus",
+    "subcat":"University Health and Counseling",
+    "desc":"Main page for University ealth and counseling services",
+    "url":"http://www.uhcs.neu.edu/"
+  },
+  {
+    "name":"Boston Weather",
+    "cat":"Campus",
+    "subcat":"Weather",
+    "desc":"Campus Weather Information",
+    "url":"http://www.weather.com/weather/today/l/02115"
+  },
+  {
+    "name":"Information about Microsoft Student Advantage",
+    "cat":"Academics",
+    "subcat":"Active Northeastern students are able to download the latest version of Microsoft Office – currently Office 2013 for Windows and Office 2011 for Mac – for FREE through the Microsoft Student Advantage program.",
+    "desc":"Active Northeastern students are able to download the latest version of Microsoft Office – currently Office 2013 for Windows and Office 2011 for Mac – for FREE through the Microsoft Student Advantage program.",
+    "url":"http://www.northeastern.edu/its/services/software/student-advantage/"
+  },
+  {
+    "name":"Academic Advising Website",
+    "cat":"Academics",
+    "subcat":"Advising Resources ",
+    "desc":"Academic advising is an ongoing process that engages students in educational planning consistent with their academic interests as well as with their personal, intellectual, and career goals. This student-centered advising process involves an active partnership among students, academic advisors, and faculty advisors.",
+    "url":"http://www.neu.edu/csas"
+  },
+  {
+    "name":"Blackboard",
+    "cat":"Academics",
+    "subcat":"Blackboard",
+    "desc":"Welcome to Blackboard",
+    "url":"http://myneu.neu.edu/cp/ip/login?sys=bb&url=http://blackboard.neu.edu/','BB"
+  },
+  {
+    "name":"Graduation Application",
+    "cat":"Academics",
+    "subcat":"Commencement",
+    "desc":"Here is the graduation application information.",
+    "url":"http://myneu.neu.edu/cp/ip/login?sys=sctssb&url=https://wl11gp.neu.edu/udcprod8/bwskgrad.p_view_gradapp"
+  },
+  {
+    "name":"Commencement Announcements",
+    "cat":"Academics",
+    "subcat":"Commencement",
+    "desc":"Commencement Announcements",
+    "url":"http://www.neu.edu/commencement/"
+  },
+  {
+    "name":"Disability Resource Center",
+    "cat":"Academics",
+    "subcat":"Disability Resource Center",
+    "desc":"Provides services to students with physical and/or learning disabilities.",
+    "url":"http://www.northeastern.edu/drc"
+  },
+  {
+    "name":"Learning Disabilities Center",
+    "cat":"Academics",
+    "subcat":"Disability Resource Center",
+    "desc":"The Learning Disabilities Program(LDP) is a comprehensive program for undergraduate students with learning disabilities and attention deficit disorder.  Basic accommodations for students with learning disabilities and attention deficit disorder are provided at no cost by the Disability Resource Center (DRC).",
+    "url":"http://www.northeastern.edu/uhcs/ldp/index.html"
+  },
+  {
+    "name":"Student Services ",
+    "cat":"Academics",
+    "subcat":"Registrar",
+    "desc":"Check your registration status, class schedule and add or drop classes, View your holds, grades and transcripts, View your account summaries, statement/payment history and tax information",
+    "url":"http://myneu.neu.edu/cp/ip/login?sys=sctssb&url=https://wl11gp.neu.edu/udcprod8/twbkwbis.P_GenMenu?name=bmenu.P_StuMainMnu"
+  },
+  {
+    "name":"Course Catalog",
+    "cat":"Academics",
+    "subcat":"Registrar",
+    "desc":"See if a course is offered, divided by term",
+    "url":"https://wl11gp.neu.edu/udcprod8/bwckctlg.p_disp_dyn_ctlg"
+  },
+  {
+    "name":"Schedule of Classes",
+    "cat":"Academics",
+    "subcat":"Registrar",
+    "desc":"Course schedule by term",
+    "url":"https://wl11gp.neu.edu/udcprod8/NEUCLSS.p_disp_dyn_sched"
+  },
+  {
+    "name":"Registration",
+    "cat":"Academics",
+    "subcat":"Registrar",
+    "desc":"Select Term, Registration Status, Look Up Classes, Add or Drop Classes, Active Registration, Change Class Options, Registration History, Week at a Glance, Concise Student Schedule, Student Detail Schedule, Course Catalog, Class Schedule, Enhanced Class Search, View Holds, Patterns of Attendance",
+    "url":"http://myneu.neu.edu/cp/ip/login?sys=sctssb&url=https://wl11gp.neu.edu/udcprod8/twbkwbis.P_GenMenu?name=bmenu.P_RegMnu"
+  },
+  {
+    "name":"Student Detail Schedule",
+    "cat":"Academics",
+    "subcat":"Registrar",
+    "desc":"Student's specific schedule for the term",
+    "url":"http://myneu.neu.edu/cp/ip/login?sys=sctssb&url=https://wl11gp.neu.edu/udcprod8/bwskfshd.P_CrseSchdDetl"
+  },
+  {
+    "name":"Final Grades",
+    "cat":"Academics",
+    "subcat":"Registrar",
+    "desc":"Select a term to see final grades",
+    "url":"http://myneu.neu.edu/cp/ip/login?sys=sctssb&url=https://wl11gp.neu.edu/udcprod8/bwskogrd.P_ViewTermGrde"
+  },
+  {
+    "name":"\nEnrollment/Degree Verification Request",
+    "cat":"Academics",
+    "subcat":"Registrar",
+    "desc":"Please follow the steps on these pages to submit your request for an enrollment or degree verification request. ",
+    "url":"http://myneu.neu.edu/cp/ip/login?sys=was&url=https://prod-web.neu.edu/wasapp/EnrollmentVerification"
+  },
+  {
+    "name":"\nAcademic Transcript Options",
+    "cat":"Academics",
+    "subcat":"Registrar",
+    "desc":"Select the transcript level and transcript type.",
+    "url":"http://myneu.neu.edu/cp/ip/login?sys=sctssb&url=https://wl11gp.neu.edu/udcprod8/bwskotrn.P_ViewTermTran"
+  },
+  {
+    "name":"Degree Audit",
+    "cat":"Academics",
+    "subcat":"Registrar",
+    "desc":"myPAWS, continue to request degree audit",
+    "url":"http://myneu.neu.edu/cp/ip/login?sys=was&url=https://prod-web.neu.edu/webapp6/DARSStudent/RequestAuditServlet','DARS"
+  },
+  {
+    "name":"Change of Address",
+    "cat":"",
+    "subcat":"Registrar",
+    "desc":"Listed below is the contact information we have for you on file, current address",
+    "url":"http://myneu.neu.edu/cp/ip/login?sys=was&url=https://prod-web.neu.edu/wasapp/UpdateContactInfo/contactInfo/changeAddr"
+  },
+  {
+    "name":"Academic Status Change",
+    "cat":"Academics",
+    "subcat":"Registrar",
+    "desc":"Creat new Leave of Absence",
+    "url":"http://myneu.neu.edu/cp/ip/login?sys=cas&url=https://myneu.neu.edu/myneu/if/customerportal.html"
+  },
+  {
+    "name":"Northeastern University Student Withdrawal Request",
+    "cat":"Academics",
+    "subcat":"Registrar",
+    "desc":"I understand that, even though I am withdrawing from Northeastern University, I am responsible for all outstanding financial obligations to the University. Withdraw from University",
+    "url":"http://myneu.neu.edu/cp/ip/login?sys=was&url=https://prod-web.neu.edu/wasapp/exitSurvey/survey/displayTerm"
+  },
+  {
+    "name":"Apply to study abroad",
+    "cat":"Academics",
+    "subcat":"Registrar",
+    "desc":"Please visit the OISP Website for in-depth information regarding study abroad, specific programs, etc.",
+    "url":"http://myneu.neu.edu/cp/ip/login?sys=was&url=https://prod-web.neu.edu/wasapp/oisp/app/secure/s/main.action"
+  },
+  {
+    "name":"My Travel Plans",
+    "cat":"Academics",
+    "subcat":"Registrar",
+    "desc":"upcoming/future, completed, cancelled travel",
+    "url":"http://myneu.neu.edu/cp/ip/login?sys=cas&url=https://myneu.neu.edu/myneu/if/travelregistry.html"
+  },
+  {
+    "name":"FERPA",
+    "cat":"Academics",
+    "subcat":"Registrar",
+    "desc":"Family Educational Rights and Privacy Act Status, Read this General Information about FERPA to better understand your rights",
+    "url":"http://myneu.neu.edu/cp/ip/login?sys=sctssb&url=https://wl11gp.neu.edu/udcprod8/NEUFERPA.p_display_ferpa"
+  },
+  {
+    "name":"NORTHEASTERN WRITING CENTER",
+    "cat":"Academics",
+    "subcat":"Study and Course Resources",
+    "desc":"The Northeastern University Writing Center, housed in the Department of English within the College of Social Sciences and Humanities, is open to any member of the Northeastern community and exists to help any level writer, from any academic discipline, become a better writer.",
+    "url":"http://www.northeastern.edu/english/writing-center/"
+  },
+  {
+    "name":"Bookstore",
+    "cat":"Academics",
+    "subcat":"Study and Course Resources",
+    "desc":"Buy textbooks, gear, swag, etc.",
+    "url":"http://northeastern.bncollege.com/"
+  },
+  {
+    "name":"NUSSO",
+    "cat":"Academics",
+    "subcat":"Study and Course Resources",
+    "desc":"Northeastern University Space Scheduling Online, reserve space in the library, club snell",
+    "url":"http://myneu.neu.edu/cp/ip/login?sys=ems&url=https://nuevents.neu.edu"
+  },
+  {
+    "name":"myKnowledge",
+    "cat":"Academics",
+    "subcat":"Study and Course Resources",
+    "desc":"myKnowledge provides you with 24 x 7 x 365 access to search for solutions relating to Northeastern University technologies and services.",
+    "url":"https://kb.northeastern.edu:8443/portal/ss/index.jsp"
+  },
+  {
+    "name":"Digication",
+    "cat":"Academics",
+    "subcat":"Study and Course Resources",
+    "desc":"Welcome to the Northeastern University eportfolio system.",
+    "url":"http://myneu.neu.edu/myneu/if/digication.html"
+  },
+  {
+    "name":"TRACE Survey Results",
+    "cat":"Academics",
+    "subcat":"Study and Course Resources",
+    "desc":"Know the dirt from the stuff",
+    "url":"http://myneu.neu.edu/cp/ip/login?sys=was&url=https://prod-web.neu.edu/wasapp/TRACE25"
+  },
+  {
+    "name":"SGA Teacher Course Evaluation Results",
+    "cat":"Academics",
+    "subcat":"Study and Course Resources",
+    "desc":"Pre-TRACE evaluations (older than 2007)",
+    "url":"http://myneu.neu.edu/cp/ip/login?sys=was&url=https://prod-web.neu.edu/wasapp/TCEP/search.do"
+  },
+  {
+    "name":"Lynda Portal",
+    "cat":"Academics",
+    "subcat":"Study and Course Resources",
+    "desc":"",
+    "url":"https://shib.lynda.com/InCommon"
+  },
+  {
+    "name":"Scholar OneSearch",
+    "cat":"Academics",
+    "subcat":"Study and Course Resources",
+    "desc":"Scholar OneSearch provides simple, one-stop searching for books and e-books, videos, articles, digital media, and more. Search local Northeastern collections and global resources, with many items available in full text online.",
+    "url":"http://onesearch.library.northeastern.edu/primo_library/libweb/action/nulldscnt=0&institute=&dstmp=1423335777078&vid=NU&fromLogin=true"
+  },
+  {
+    "name":"Appointment Calendar",
+    "cat":"Academics",
+    "subcat":"Important",
+    "desc":"Advisor appointments, click on a person's name to view their schedule of available appointments.",
+    "url":"http://myneu.neu.edu/cp/ip/login?sys=was&url=https://prod-web.neu.edu/wasapp/public/calendar/booking/app/secure/main.action"
+  },
+  {
+    "name":"Mentoring & Advising",
+    "cat":"Academics",
+    "subcat":"Important",
+    "desc":"Student success specialists are here to help current students reach their educational goals. We recommend meeting with your designated student success specialist regularly to stay on track with your academic progress and to take advantage of the wealth of information and resources available to you.",
+    "url":"http://www.advising.neu.edu/"
+  },
+  {
+    "name":"Curriculum Selection",
+    "cat":"Academics",
+    "subcat":"Important",
+    "desc":"Your completion and submission of this application indicates your approval for use of degree information and image(s) [via photograph and/or video] to be used in University related publication(s) and/or on the University web site as deemed appropriate.",
+    "url":"http://myneu.neu.edu/cp/ip/login?sys=sctssb&url=https://wl11gp.neu.edu/udcprod8/bwskgrad.p_disp_gradapp"
+  },
+  {
+    "name":"Microsoft Student Advantage",
+    "cat":"Academics",
+    "subcat":"",
+    "desc":"Please sign in using your Office 365 (@northeastern.edu) username and your myNEU password.\n",
+    "url":"https://sts.northeastern.edu/adfs/ls/?cbcxt=&popupui=&vv=&username=schiller.g%40northeastern.edu&wa=wsignin1.0&wtrealm=urn:federation:MicrosoftOnline&wctx=wa%3Dwsignin1.0%26rpsnv%3D3%26ver%3D6.4.6456.0%26wp%3DMCMBI%26wreply%3Dhttps:%252F%252Fportal.office.com%252Flanding.aspx%253Ftarget%253D%25252fOLS%25252fMySoftware.aspx%26lc%3D1033%26id%3D501392"
+  },
+  {
+    "name":"Zipcar at NU",
+    "cat":"Co-op",
+    "subcat":"Helpful Links",
+    "desc":"",
+    "url":"http://www.zipcar.com/northeastern/"
+  },
+  {
+    "name":"Getting Started - Co-op",
+    "cat":"Co-op",
+    "subcat":"Co-op",
+    "desc":"Choosing or changing your majors is a big step and can feel overwhelming.  Exploring co-op jobs on Northeastern’s co-op job database, known as ‘myNEU COOL’ is one way to inform your thinking about how to take that step.",
+    "url":"http://coopstatus.neu.edu/myNEU/coop/gettingStarted.aspx"
+  },
+  {
+    "name":"Co-op Forms / Global Experience Forms",
+    "cat":"Co-op",
+    "subcat":"Co-op",
+    "desc":"Experiential Learning Forms",
+    "url":"http://coopstatus.neu.edu/myNEU/tools/forms.aspx"
+  },
+  {
+    "name":"Co-op Contacts",
+    "cat":"Co-op",
+    "subcat":"Co-op",
+    "desc":"Experiential Learning Contacts",
+    "url":"http://coopstatus.neu.edu/myNEU/tools/contacts.aspx"
+  },
+  {
+    "name":"myNEU COOL",
+    "cat":"Co-op",
+    "subcat":"Co-op",
+    "desc":"Apply to Co-opx",
+    "url":"https://www.cool.neu.edu/students/mainmenu.aspx"
+  },
+  {
+    "name":"Co-op FAQ",
+    "cat":"Co-op",
+    "subcat":"Co-op",
+    "desc":"Co-op Frequently Asked Questions",
+    "url":"http://coopstatus.neu.edu/myNEU/coop/faq.aspx"
+  },
+  {
+    "name":"Getting Started - Global Experiences",
+    "cat":"Co-op",
+    "subcat":"Global Experiences",
+    "desc":"\nGlobalization in the 21st century, which is breaking down barriers of time and distance, makes it imperative that today’s students be as comfortable in Shanghai, Mumbai, or Mexico as they are in Boston, Chicago, or Los Angeles. ",
+    "url":"http://coopstatus.neu.edu/myNEU/globalExperiences/gettingStarted.aspx"
+  },
+  {
+    "name":"Global Experience Contacts",
+    "cat":"Co-op",
+    "subcat":"Global Experiences",
+    "desc":"Contact Us ",
+    "url":"http://www.northeastern.edu/studyabroad/about/contact/"
+  },
+  {
+    "name":"International Co-op",
+    "cat":"Co-op",
+    "subcat":"Global Experiences",
+    "desc":"At Northeastern, international cooperative education is a great way for students to develop the knowledge, awareness, perspective, and confidence to feel at home anywhere in the world.  Working and living in another country provides students with an intercultural competency, international exposure and a deeper understanding of what it means to be a global citizen.. That is why Northeastern prepares students for international experiential opportunities.",
+    "url":"http://coopstatus.neu.edu/myNEU/globalExperiences/coop.aspx"
+  },
+  {
+    "name":"International Service Learning",
+    "cat":"Co-op",
+    "subcat":"Global Experiences",
+    "desc":"Looking for a meaningful way to combine your three interests of learning, serving, and traveling? The Service-Learning dialogues are great options.\n\n",
+    "url":"http://coopstatus.neu.edu/myNEU/globalExperiences/serviceLearning.aspx"
+  },
+  {
+    "name":"International Study",
+    "cat":"Co-op",
+    "subcat":"Global Experiences",
+    "desc":"The Office of International Study Programs at Northeastern University is committed to providing you with high-quality study abroad opportunities that will allow you to develop the knowledge, skills and networks needed to become productive and successful participants in the global community.",
+    "url":"http://www.northeastern.edu/studyabroad/"
+  },
+  {
+    "name":"Dialogue of Civilizations",
+    "cat":"Co-op",
+    "subcat":"Global Experiences",
+    "desc":"Open to Northeastern University students of any major, the Dialogue of Civilizations is a series of \"global student exchanges\" between students at Northeastern University and students around the world. ",
+    "url":"http://www.northeastern.edu/studyabroad/programs/?type=Dialogue+of+Civilizations"
+  },
+  {
+    "name":"Service Learning and student research",
+    "cat":"Co-op",
+    "subcat":"Service Learning and Student Research",
+    "desc":"Apply the concepts you learn in class to enrich your academic experience and empower people and communities in the U.S. and across the globe.",
+    "url":"http://www.northeastern.edu/experiential-learning/service-learning/index.html"
+  },
+  {
+    "name":"Ride Share",
+    "cat":"Co-op",
+    "subcat":"Tools",
+    "desc":"This web site is intended to connect matriculated Northeastern University students seeking transportation to their place of co-op employment with students who are able to drive them there - under mutually agreeable terms.",
+    "url":"https://prod-web.neu.edu/wasapp/RideShare/secure/index.jsp"
+  },
+  {
+    "name":"Co-op connections",
+    "cat":"Co-op",
+    "subcat":"Tools",
+    "desc":"Beyond Boston",
+    "url":"http://www.northeastern.edu/coopconnections/"
+  },
+  {
+    "name":"Decide on a Career or Major\n",
+    "cat":"Co-op",
+    "subcat":"How Career Development Can Help You",
+    "desc":"Choosing or changing a major is a big step and can easily feel overwhelming.  If you are struggling with this decision, you are not alone. More than 50% of all college students are undecided and 75% change their major at least once.",
+    "url":"http://www.northeastern.edu/careers/majors-careers/"
+  },
+  {
+    "name":"\nFind an Internship\n",
+    "cat":"Co-op",
+    "subcat":"Career Development",
+    "desc":"Why do an Internship?",
+    "url":"http://www.northeastern.edu/careers/jobs-internships/internships/"
+  },
+  {
+    "name":"Job Search Guidance\n",
+    "cat":"Co-op",
+    "subcat":"Career Development",
+    "desc":"Job searching can be overwhelming and tedious; having a strategy can make the process seem less daunting and much more manageable.",
+    "url":"http://www.northeastern.edu/careers/jobs-internships/job-search/"
+  },
+  {
+    "name":"\nResume Services\n",
+    "cat":"Co-op",
+    "subcat":"Career Development",
+    "desc":"Resumes have one humble but important job: to open a door and get you an interview.",
+    "url":"http://www.northeastern.edu/careers/jobs-internships/resumes/"
+  },
+  {
+    "name":"\nCover Letter Critique\n",
+    "cat":"Co-op",
+    "subcat":"Career Development",
+    "desc":"The purpose of a cover letter is to convince an employer that your skills and background make you worth interviewing. While a resume summarizes your experience, a cover letter persuasively relates that experience to the specific job to which you are applying. ",
+    "url":"http://www.northeastern.edu/careers/jobs-internships/cover-letters/"
+  },
+  {
+    "name":"\nMock Interviews",
+    "cat":"Co-op",
+    "subcat":"Career Development",
+    "desc":"While the resume gets you the interview, it's the interview that gets you the job!  It's so important to be prepared, including by researching the company and the indidual(s) you're meeting with, anticipating and practicing questions, and preparing questions to ask during your interview.  There are many ways the Department of Career Development can help you get ready for your interview",
+    "url":"http://www.northeastern.edu/careers/jobs-internships/interviewing/"
+  },
+  {
+    "name":"Walk-in hours",
+    "cat":"Co-op",
+    "subcat":"Appointments & Walk-ins",
+    "desc":"Hours of Operation",
+    "url":"http://www.northeastern.edu/careers/about/appointments/"
+  },
+  {
+    "name":"contact us",
+    "cat":"Co-op",
+    "subcat":"Appointments & Walk-ins",
+    "desc":"Welcome to Career Development.  We are happy to help guide your career process and answer any questions about co-op, internships and full-time employment. Please stop by our office at 103 Stearns Center and make an appointment with a career counselor or call the front desk at 617-373-2430.",
+    "url":"http://www.northeastern.edu/careers/about/contact/"
+  },
+  {
+    "name":"MBA career center",
+    "cat":"Co-op",
+    "subcat":"Appointments & Walk-ins",
+    "desc":"Northeastern University’s D’Amore-McKim School of Business provides its students – undergraduate, graduate and executive – with the education, tools, and experience necessary to launch and accelerate successful business careers.",
+    "url":"http://www.damore-mckim.northeastern.edu/en/academic-programs/graduate-programs/mba-career-center/"
+  },
+  {
+    "name":"Husky CareerLink",
+    "cat":"Co-op",
+    "subcat":"Career Tools",
+    "desc":"HuskyCareerLink is Northeastern's job opportunities database powered by eRecruiting, an Internet software product of ConnectEDU, advertising opportunities for NU students and alumni who have 0-3 years of work experience including",
+    "url":"https://northeastern.experience.com/experience/login"
+  },
+  {
+    "name":"Interview Stream",
+    "cat":"Co-op",
+    "subcat":"Career Tools",
+    "desc":"Would you hire you?\nPractice Interviewing. Anytime. Anywhere",
+    "url":"https://neu.interviewstream.com/Account/Login?ReturnUrl=%2f"
+  },
+  {
+    "name":"Vocational Biographies",
+    "cat":"Co-op",
+    "subcat":"Career Tools",
+    "desc":"The Career Success stories of over 1,000 people",
+    "url":"http://www.vocbiosonline.com/login.php"
+  },
+  {
+    "name":"Type Focus",
+    "cat":"Co-op",
+    "subcat":"Career Tools",
+    "desc":"Welcome to the TypeFocus™ Careers Program!\n\nStart by learning about your personality strengths.\n\nEnd by learning about tips to get the job you want.\n\nYour work is always saved. Return as often as you like.",
+    "url":"http://careers.typefocus.com/"
+  },
+  {
+    "name":"Career and Job Search Guides",
+    "cat":"Co-op",
+    "subcat":"Career Tools",
+    "desc":"Career and Job Search Guides",
+    "url":"http://www.northeastern.edu/careers/guides/"
+  },
+  {
+    "name":"Career Videos",
+    "cat":"Co-op",
+    "subcat":"Career Tools",
+    "desc":"Career Services Youtube",
+    "url":"https://www.youtube.com/user/NUCareerServices"
+  },
+  {
+    "name":"Calendar",
+    "cat":"Co-op",
+    "subcat":"Calendar",
+    "desc":"Employment Event Calendar",
+    "url":"http://myneu.neu.edu/tag.5e9d3b076f18d5a7.render.userLayoutRootNode.uP?uP_root=u117656l1n54&padding=true"
+  },
+  {
+    "name":"Participate in On-Campus Recruiting",
+    "cat":"Co-op",
+    "subcat":"Career Tools",
+    "desc":"On-Campus Recruiting (OCR) brings employers to Northeastern each fall and spring to recruit students for after-graduation jobs.",
+    "url":"http://www.northeastern.edu/careers/jobs-internships/on-campus-recruiting/"
+  },
+  {
+    "name":"Apple Computer Store for Northeastern - Personal Use",
+    "cat":"Finances",
+    "subcat":"Tech Marketplace",
+    "desc":"Apple Computers are available at special pricing through Northeastern University.",
+    "url":"http://myneu.neu.edu/cp/ip/login?sys=was&url=https://prod-web.neu.edu/wasapp/NuRedirects/redirect.jsp?store=static_app','AS"
+  },
+  {
+    "name":"Dell Store for Northeastern",
+    "cat":"Finances",
+    "subcat":"Tech Marketplace",
+    "desc":"These specially-selected Dell computers combine business-class performance with essential software and support to take you well into your college career and beyond, ",
+    "url":"http://myneu.neu.edu/cp/ip/login?sys=was&url=https://prod-web.neu.edu/wasapp/NuRedirects/redirect.jsp?store=dell_student','DS"
+  },
+  {
+    "name":"NU OnTheHub",
+    "cat":"Finances",
+    "subcat":"Tech Marketplace",
+    "desc":"Discounted tech for Northeastern Students",
+    "url":"http://neu.onthehub.com"
+  },
+  {
+    "name":"Student Account, Payment and E-bill Information",
+    "cat":"Finances",
+    "subcat":"Student Financial Services",
+    "desc":"Student Account, Payment and E-bill Information",
+    "url":"http://myneu.neu.edu/cp/ip/login?sys=was&url=https://prod-web.neu.edu/wasapp/StudentFinancialServices/"
+  },
+  {
+    "name":"Student Financial Services ",
+    "cat":"Finances",
+    "subcat":"Student Financial Services",
+    "desc":"Student Financial Services\nExpert Advice. Friendly Service. Personalized Support....",
+    "url":"http://myneu.neu.edu/cp/ip/login?sys=cas&url=https://www.pfw.neu.edu/netpartnerstudent"
+  },
+  {
+    "name":"Endowed Scholarship Application",
+    "cat":"Finances",
+    "subcat":"Student Financial Services",
+    "desc":"Please enter the information requested below so we may determine your eligibility for Endowed Scholarships.",
+    "url":"http://myneu.neu.edu/cp/ip/login?sys=was&url=https://prod-web.neu.edu/webapp6/EndowedScholarship/secure/index.jsp"
+  },
+  {
+    "name":"Husky Card Account Balances ",
+    "cat":"Finances",
+    "subcat":"Student Financial Services",
+    "desc":"Your current account balances and account types appear below:",
+    "url":"http://myneu.neu.edu/cp/ip/login?sys=was&url=https://prod-web.neu.edu/wasapp/HuskyCard/CurrentBalance/secure/retrieve/main.do"
+  },
+  {
+    "name":"Husky Dollar Transactions",
+    "cat":"Finances",
+    "subcat":"Student Financial Services",
+    "desc":"View Transactions - Husky Dollars   |   Dining   |   Laundry Bucks   |   Free Print Allowance",
+    "url":"http://myneu.neu.edu/cp/ip/login?sys=was&url=https://prod-web.neu.edu/wasapp/ISF/cardTxns.do"
+  },
+  {
+    "name":"WebCard Center ",
+    "cat":"Finances",
+    "subcat":"Student Financial Services",
+    "desc":"Welcome to CS Gold WebCard Center",
+    "url":"http://myneu.neu.edu/cp/ip/login?sys=hcard&url=https://huskycardcenter.neu.edu/student/welcome.php"
+  }
+]

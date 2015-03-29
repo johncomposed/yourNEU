@@ -6,20 +6,20 @@
   "permissions": [
     "http://myneu.neu.edu/*",
     "https://myneu.neu.edu/*",
-    "activeTab"
+    "activeTab",
+    "tabs"
   ],
-
-  "options_page": "options.html",
-
   
   "content_scripts": [
     {
       "matches": [
-        "https://myneu.neu.edu/*"
+        "https://myneu.neu.edu/*",
+        "http://myneu.neu.edu/*"
       ],
       "js": [
         "inject.js"
-      ]
+      ],
+      "run_at": "document_end"
     }
   ],
 
