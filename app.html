@@ -2,13 +2,13 @@
 <html ng-app="instantSearch"  >
   <head>
 		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
 		<title>ourNEU</title>
 		<meta name="description" content="NEU Redesigned for the masses" />
 		<meta name="author" content="John, Tiffney, and Wendy @ hackbeanpot 2015" />
 		<link rel="shortcut icon" href="../favicon.ico">
-        
+
         <!--Styles-->
 		<link href='http://fonts.googleapis.com/css?family=Raleway:100,700,800' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.2.0/css/font-awesome.min.css" />
@@ -21,23 +21,23 @@
 
       		<h1><a title="Home" href="http://tutorialzine.com/" id="logo">our<b>NEU</b></a></h1>
 
-		
+
       		<nav class="Articles">
       			<a href="http://tutorialzine.com/posts/" class="">HuskyMail</a>
       			<a href="http://tutorialzine.com/webdev-newsletter/" class="">Blackboard</a>
       			<a href="http://tutorialzine.com/books/jquery-trickshots/">Log out</a>
       		</nav>
 
-		
+
 
       	</header>
-      
+
     <div id="morphsearch" class="morphsearch"  ng-controller="InstantSearchController">
 		<form id="multiple-datasets" class="morphsearch-form">
 			<input ng-model="searchString" class="morphsearch-input" type="text" placeholder="Search..."/>
 			<button class="morphsearch-submit" type="submit">Search</button>
         </form>
-        
+
             <div class="morphsearch-content" ng-controller="TestCtrl">
                 <div class="dummy-column">
                 <h1>Academics</h1>
@@ -84,7 +84,7 @@
         </ul>
     </div>
     </div><!-- /morphsearch-content -->
-    
+
     </div><!-- /morphsearch -->
 
 
@@ -103,7 +103,7 @@
             $scope.data = data;
           });
       });
-      
+
 
       app.filter('searchFor', function(){
       	// {inputData:argument} here is (searchFor:searchString)
@@ -133,8 +133,8 @@
             $scope.items = data;
           });
       }*/
-      
-      
+
+
       </script>
   </body>
 </html>

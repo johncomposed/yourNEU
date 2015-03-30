@@ -2,14 +2,15 @@
   "name": "yourNEU",
   "description": "Make NEU not terrible!",
   "version": "1.0",
-
   "permissions": [
     "http://myneu.neu.edu/*",
     "https://myneu.neu.edu/*",
     "activeTab",
     "tabs"
   ],
-  
+
+  "page_action": { },
+
   "content_scripts": [
     {
       "matches": [
@@ -17,10 +18,31 @@
         "http://myneu.neu.edu/*"
       ],
       "js": [
-        "inject.js"
+        "lib/angular-v1.2.22.js",
+        "lib/angular-css-injector.js",
+        "switch.js"
       ],
       "run_at": "document_end"
     }
+  ],
+
+  "background": {
+    "matches": [
+      "https://myneu.neu.edu/*",
+      "http://myneu.neu.edu/*"
+    ],
+      "persistent": false,
+      "scripts": [
+          "pageAction.js"
+      ]
+  },
+
+  "web_accessible_resources": [
+      "css/demo.css",
+      "data/allmyneu.json",
+      "lib/angular-v1.2.22.js",
+      "lib/angular-css-injector.js",
+      "view.html"
   ],
 
   "manifest_version": 2

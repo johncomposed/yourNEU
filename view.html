@@ -1,0 +1,80 @@
+<span ng-controller="switchCtrl">
+  <span ng-switch="state">
+    <span ng-switch-when="on">
+        <head>
+        </head>
+        <body>
+        <header>
+
+        <h1><a title="Home" href="#" id="logo">our<b>NEU</b></a></h1>
+        <nav class="Articles">
+          <a href="#" class="">HuskyMail</a>
+          <a href="#" class="">Blackboard</a>
+          <a href="#">Log out</a>
+        </nav>
+
+        </header>
+
+        <div id="morphsearch" class="morphsearch" ng-controller="InstantSearchCtrl">
+          <form id="multiple-datasets" class="morphsearch-form">
+            <input ng-model="searchString" class="morphsearch-input" type="text" placeholder="Search..." />
+            <button class="morphsearch-submit" type="submit">Search</button>
+          </form>
+
+          <div class="morphsearch-content" >
+            <div class="dummy-column">
+              <h1>Academics</h1>
+              <!--Later this will be an h4 ng-repeat for the subcat -->
+              <ul>
+                <li class="dummy-media-object" ng-repeat="Atem in data | filter: { cat: 'Academics' } | orderBy:['subcat'] | searchFor:searchString">
+                  <a href="{{Atem.url}}">
+                        {{Atem.name}}<a href="" ng-model="collapsed" ng-click="collapsed=!collapsed">...</a>
+                  <p ng-show="collapsed">{{Atem.desc}}</p>
+                </li>
+              </ul>
+            </div>
+            <div class="dummy-column">
+              <h1>Campus</h1>
+              <!--Later this will be an h4 ng-repeat for the subcat -->
+              <ul>
+                <li class="dummy-media-object" ng-repeat="Ctem in data | filter: { cat: 'Campus' } | orderBy:['subcat'] | searchFor:searchString ">
+                  <a href="{{Ctem.url}}">
+                        {{Ctem.name}}</a><a href="" ng-model="collapsed" ng-click="collapsed=!collapsed">...</a>
+                  <p ng-show="collapsed">{{Ctem.desc}}</p>
+                </li>
+              </ul>
+            </div>
+            <div class="dummy-column">
+              <h1>Finances</h1>
+              <!--Later this will be an h4 ng-repeat for the subcat -->
+              <ul>
+                <li class="dummy-media-object" ng-repeat="Ftem in data | filter: { cat: 'Finances' } | orderBy:['subcat'] | searchFor:searchString ">
+                  <a href="{{Ftem.url}}">
+                        {{Ftem.name}}</a><a href="" ng-model="collapsed" ng-click="collapsed=!collapsed">...</a>
+                  <p ng-show="collapsed">{{Ftem.desc}}</p>
+                </li>
+              </ul>
+            </div>
+            <div class="dummy-column">
+              <h1>Co-op</h1>
+              <!--Later this will be an h4 ng-repeat for the subcat -->
+              <ul>
+                <li class="dummy-media-object" ng-repeat="Otem in data | filter: { cat: 'Co-op' } | orderBy:['subcat'] | searchFor:searchString ">
+                  <a href="{{Otem.url}}">
+                        {{Otem.name}}<a href="" ng-model="collapsed" ng-click="collapsed=!collapsed">...</a>
+                  <p ng-show="collapsed">{{Otem.desc}}</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- /morphsearch-content -->
+
+        </div>
+      <!-- /morphsearch -->
+      </body>
+    </span>
+    <span ng-switch-when="off">
+      <content select="*"></content>
+    </span>
+  </span>
+</span>
